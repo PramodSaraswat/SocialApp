@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+	<h1>{{ _('Something went wrong(500)') }}</h1>
+        <p>{{ _("We're experiencing some trouble on our end. Please try again in near future") }}</p>
+
+        <p><a href="{{ url_for('index') }}">{{ _('Back to home') }}</a></p>
+
+{% endblock %}

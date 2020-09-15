@@ -1,0 +1,273 @@
+# Spanish translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-09-14 18:35+0530\n"
+"PO-Revision-Date: 2020-09-13 16:59+0530\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: app/__init__.py:21
+msgid "Please log in to access this page."
+msgstr ""
+
+#: app/email.py:19
+msgid "[SocialApp] Reset Your Password"
+msgstr ""
+
+#: app/forms.py:10 app/forms.py:17 app/forms.py:35
+msgid "Username"
+msgstr ""
+
+#: app/forms.py:11 app/forms.py:19 app/forms.py:56
+msgid "Password"
+msgstr ""
+
+#: app/forms.py:12
+msgid "Remember Me"
+msgstr ""
+
+#: app/forms.py:13 app/templates/login.html:5
+msgid "Sign In"
+msgstr ""
+
+#: app/forms.py:18 app/forms.py:52 app/templates/user.html:9
+msgid "Email"
+msgstr ""
+
+#: app/forms.py:20 app/forms.py:57
+msgid "Confirm Password"
+msgstr ""
+
+#: app/forms.py:21
+msgid "Sign Up"
+msgstr ""
+
+#: app/forms.py:26
+msgid "This Email is taken. Please choose a different one"
+msgstr ""
+
+#: app/forms.py:31 app/forms.py:42
+msgid "Username is taken. Please choose a different one"
+msgstr ""
+
+#: app/forms.py:36
+msgid "About Me"
+msgstr ""
+
+#: app/forms.py:37
+msgid "Update Info"
+msgstr ""
+
+#: app/forms.py:48
+msgid "Share your thoughts"
+msgstr ""
+
+#: app/forms.py:49
+msgid "Post"
+msgstr ""
+
+#: app/forms.py:53 app/forms.py:58
+msgid "Request Password Reset"
+msgstr ""
+
+#: app/routes.py:33
+msgid "Your post has been created"
+msgstr ""
+
+#: app/routes.py:39
+msgid "home"
+msgstr ""
+
+#: app/routes.py:51
+msgid "Invalid Username or Password"
+msgstr ""
+
+#: app/routes.py:58 app/templates/base.html:32
+msgid "Login"
+msgstr ""
+
+#: app/routes.py:78
+msgid "Account created, You can login in now"
+msgstr ""
+
+#: app/routes.py:80
+msgid "SignUp"
+msgstr ""
+
+#: app/routes.py:107
+msgid "Your profile has been updated"
+msgstr ""
+
+#: app/routes.py:112
+msgid "Edit profile"
+msgstr ""
+
+#: app/routes.py:122 app/routes.py:142
+#, python-format
+msgid "User %(username)s not found."
+msgstr ""
+
+#: app/routes.py:125
+msgid "You can not follow yourself"
+msgstr ""
+
+#: app/routes.py:129
+#, python-format
+msgid "You are following %(username)s!"
+msgstr ""
+
+#: app/routes.py:145
+msgid "You cannot unfollow yourself!"
+msgstr ""
+
+#: app/routes.py:148
+#, python-format
+msgid "You are not following %(username)s."
+msgstr ""
+
+#: app/routes.py:162 app/templates/base.html:28
+msgid "Explore"
+msgstr ""
+
+#: app/routes.py:174
+msgid "Check your email for the instructions to reset your password"
+msgstr ""
+
+#: app/routes.py:176
+msgid "No account found with your email, kindly check your email address"
+msgstr ""
+
+#: app/routes.py:177
+msgid "Password Reset"
+msgstr ""
+
+#: app/routes.py:186
+msgid "Invalid or Expired Token"
+msgstr ""
+
+#: app/routes.py:192
+msgid "Your password has been changed you can login now!"
+msgstr ""
+
+#: app/routes.py:194 app/templates/reset_password_request.html:5
+msgid "Reset Password"
+msgstr ""
+
+#: app/templates/404.html:4
+msgid "Oops. Page Not Found (404)"
+msgstr ""
+
+#: app/templates/404.html:5
+msgid "That Page does not exist. Please try a different location"
+msgstr ""
+
+#: app/templates/404.html:6 app/templates/500.html:7
+msgid "Back to home"
+msgstr ""
+
+#: app/templates/500.html:4
+msgid "Something went wrong(500)"
+msgstr ""
+
+#: app/templates/500.html:5
+msgid ""
+"We're experiencing some trouble on our end. Please try again in near "
+"future"
+msgstr ""
+
+#: app/templates/base.html:8
+msgid "My Social App"
+msgstr ""
+
+#: app/templates/base.html:27
+msgid "Home"
+msgstr ""
+
+#: app/templates/base.html:34
+msgid "Profile"
+msgstr ""
+
+#: app/templates/base.html:35
+msgid "Logout"
+msgstr ""
+
+#: app/templates/base.html:72
+msgid "Error: Could not contact server."
+msgstr ""
+
+#: app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr ""
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hii, %(username)s!"
+msgstr ""
+
+#: app/templates/login.html:12
+msgid "Don't have An Account?"
+msgstr ""
+
+#: app/templates/login.html:12
+msgid "Sign Up now!"
+msgstr ""
+
+#: app/templates/login.html:14
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: app/templates/login.html:15
+msgid "Click to Reset It"
+msgstr ""
+
+#: app/templates/register.html:5
+msgid "Register"
+msgstr ""
+
+#: app/templates/reset_password.html:5
+msgid "Reset Your Password"
+msgstr ""
+
+#: app/templates/subt_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr ""
+
+#: app/templates/subt_post.html:25
+msgid "Translate"
+msgstr ""
+
+#: app/templates/user.html:8
+msgid "User"
+msgstr ""
+
+#: app/templates/user.html:11
+msgid "Last seen on"
+msgstr ""
+
+#: app/templates/user.html:12
+#, python-format
+msgid "%(count)d followers"
+msgstr ""
+
+#: app/templates/user.html:12
+#, python-format
+msgid "%(count)d following"
+msgstr ""
+
+#: app/templates/user.html:14
+msgid "Edit your profile"
+msgstr ""
+

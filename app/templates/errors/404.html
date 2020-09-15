@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+	<h1>{{ _('Oops. Page Not Found (404)') }}</h1>
+    <p>{{ _('That Page does not exist. Please try a different location') }}</p>
+    <p><a href="{{ url_for('index') }}">{{ _('Back to home') }}</a></p>
+
+{% endblock %}
