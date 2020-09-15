@@ -55,3 +55,7 @@ webencodings==0.5.1
 websocket-client==0.48.0
 Werkzeug==1.0.1
 WTForms==2.3.3
+
+#for heroku
+psycopg2==2.7.3.1
+gunicorn==19.7.1
