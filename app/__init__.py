@@ -11,6 +11,8 @@ import os
 from flask_bootstrap import Bootstrap
 from flask_babel import Babel, lazy_gettext as _l
 from elasticsearch import Elasticsearch
+from redis import Redis
+import rq
 
 
 db=SQLAlchemy()
@@ -38,7 +40,9 @@ def create_app(config_class=Config):
 	moment.init_app(app)
 	babel.init_app(app)
 	app.elasticsearch=Elasticsearch([app.config['ELASTICSEARCH_URL']]) if app.config['ELASTICSEARCH_URL'] else None
-
+	app.redis=Redis.from_url(app.config['REDIS_URL'])
+	app.task_queue=rq.Queue('SocialApp-tasks',connection=app.redis)
+	
 	from app.errors import bp as errors_bp
 	app.register_blueprint(errors_bp)
 
