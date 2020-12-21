@@ -13,6 +13,7 @@ from flask_babel import Babel, lazy_gettext as _l
 from elasticsearch import Elasticsearch
 from redis import Redis
 import rq
+from flask_cors import CORS
 
 
 db=SQLAlchemy()
@@ -28,6 +29,7 @@ babel=Babel()
 
 def create_app(config_class=Config):
 	app=Flask(__name__)
+	CORS(app)
 	app.config.from_object(config_class)
 	app.config['MAIL_USE_TLS']=False
 
